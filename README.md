@@ -5,9 +5,22 @@
 - **License:** CC0: Public Domain
 
 ## What Each Entry Represents
-Each row represents a single Minecraft mob and relevant information.
+Each row represents a single Minecraft mob and relevant information (name, behavior type, health, and maximum damage)
 
 ## Mob Class
-- If we designed a Java class that relates to this data, each object would require fields about its name, behavior type, total health points, and the maximum damage it can deal in one hit. 
+- If we designed a Java class that relates to this data, each object would require fields about its name, behavior type, total health points, and the maximum damage it can deal in one hit.
+- Methods include battle, which would compare health points and max damage for two mobs and calculate who would win; fight, between a player and a mob; feed, and spawn mobs.
 
-UML DIAGRAM HERE
++-----------------------------+
+|            Mob              |
++-----------------------------+
+| - name: String              |
+| - behavior: String          |
+| - health: int               |
+| - maxDamage: int            |
++-----------------------------+
+| + fight(mob)                |
+| + battle(mob1, mob2)        |
+| + spawn()                   |
+| + feed(food)                |
++-----------------------------+
