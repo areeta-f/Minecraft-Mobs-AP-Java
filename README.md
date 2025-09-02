@@ -11,6 +11,9 @@ Each row represents a single Minecraft mob and relevant information (name, behav
 - If we designed a Java class that relates to this data, each object would require fields about its name, behavior type, total health points, and the maximum damage it can deal in one hit.
 - Methods include battle, which would compare health points and max damage for two mobs and calculate who would win; fight, between a player and a mob; feed, and spawn mobs.
 
+## UML Diagram
+
+```text
 +-----------------------------+
 |            Mob              |
 +-----------------------------+
