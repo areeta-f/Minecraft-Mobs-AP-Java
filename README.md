@@ -13,16 +13,15 @@ Each row represents a single Minecraft mob and relevant information (name, behav
 
 ## UML Diagram
 
-| **Properties** |  
-|----------------|  
-| name: String   |  
-| behavior: String |  
-| health: int    |  
-| maxDamage: int |  
-
-| **Methods**        |  
-|--------------------|  
-| fight(mob)         |  
-| battle(mob1, mob2) |  
-| spawn()            |  
-| feed(food)         |  
+| **Mob**         |
+|-----------------|
+| **Properties**  |
+| name: String    |
+| behavior: String|
+| health: int     |
+| maxDamage: int  |
+| **Methods**     |
+| fight(mob)      |
+| battle(mob1, mob2) |
+| spawn()         |
+| feed(food)      |
