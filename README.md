@@ -15,13 +15,11 @@ Each row represents a single Minecraft mob and relevant information (name, behav
 
 | **Mob**         |
 |-----------------|
-| **Properties**  |
-| name: String    |
-| behavior: String|
-| health: int     |
-| maxDamage: int  |
-| **Methods**     |
-| fight(mob)      |
-| battle(mob1, mob2) |
-| spawn()         |
-| feed(food)      |
+|String name|
+|String behavior|
+|int health|
+|int maxDamage|
+|countCommas()|
+|getColumnValue()|
+|chooseDataPoint()|
+|analyzeData()|
